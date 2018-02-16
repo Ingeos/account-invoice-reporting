@@ -7,15 +7,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: account-invoice-reporting (8.0)\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-11-04 00:27+0000\n"
-"PO-Revision-Date: 2017-11-07 22:22+0000\n"
+"POT-Creation-Date: 2017-08-25 23:30+0000\n"
+"PO-Revision-Date: 2017-08-29 08:01+0000\n"
 "Last-Translator: OCA Transbot <transbot@odoo-community.org>\n"
-"Language-Team: Portuguese (Brazil) (http://www.transifex.com/oca/OCA-account-invoice-reporting-8-0/language/pt_BR/)\n"
+"Language-Team: Dutch (Netherlands) (http://www.transifex.com/oca/OCA-account-invoice-reporting-8-0/language/nl_NL/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Language: pt_BR\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Language: nl_NL\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. module: base_comment_template
 #: selection:base.comment.template,position:0
@@ -53,42 +53,42 @@ msgstr ""
 #. module: base_comment_template
 #: field:base.comment.template,create_uid:0
 msgid "Created by"
-msgstr "Criado por"
+msgstr "Aangemaakt door"
 
 #. module: base_comment_template
 #: field:base.comment.template,create_date:0
 msgid "Created on"
-msgstr "Criado em"
+msgstr "Aangemaakt op"
 
 #. module: base_comment_template
 #: field:base.comment.template,display_name:0
 msgid "Display Name"
-msgstr "Nome para Mostrar"
+msgstr "Weergavenaam"
 
 #. module: base_comment_template
 #: field:base.comment.template,id:0
 msgid "ID"
-msgstr "Identificação"
+msgstr "ID"
 
 #. module: base_comment_template
 #: field:base.comment.template,__last_update:0
 msgid "Last Modified on"
-msgstr "Última atualização em"
+msgstr "Laatst gewijzigd op"
 
 #. module: base_comment_template
 #: field:base.comment.template,write_uid:0
 msgid "Last Updated by"
-msgstr "Última atualização por"
+msgstr "Laatst bijgewerkt door"
 
 #. module: base_comment_template
 #: field:base.comment.template,write_date:0
 msgid "Last Updated on"
-msgstr "Última atualização em"
+msgstr "Laatst bijgewerkt op"
 
 #. module: base_comment_template
 #: field:base.comment.template,position:0
 msgid "Position"
-msgstr "Posição"
+msgstr ""
 
 #. module: base_comment_template
 #: help:base.comment.template,position:0
