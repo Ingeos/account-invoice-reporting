@@ -7,6 +7,7 @@ Account - Invoicing Reports
 This project aim to deal with modules related to manage invoicing related report.
 
 [//]: # (addons)
+
 Available addons
 ----------------
 addon | version | summary
@@ -17,6 +18,7 @@ addon | version | summary
 [account_invoice_report_by_partner](account_invoice_report_by_partner/) | 8.0.1.0.0 | Invoice Report by Partner
 [base_comment_template](base_comment_template/) | 8.0.1.0.0 | Comments templates on documents
 [invoice_comment_template](invoice_comment_template/) | 8.0.1.0.0 | Comments templates on invoice documents
+
 
 Unported addons
 ---------------
