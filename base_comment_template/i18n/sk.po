@@ -9,89 +9,121 @@ msgstr ""
 "Project-Id-Version: Odoo Server 9.0c\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-05-16 11:59+0000\n"
-"PO-Revision-Date: 2017-05-16 11:59+0000\n"
-"Last-Translator: OCA Transbot <transbot@odoo-community.org>, 2017\n"
+"PO-Revision-Date: 2020-07-04 17:19+0000\n"
+"Last-Translator: Jan Prokop <jprokop@jackie.sk>\n"
 "Language-Team: Slovak (https://www.transifex.com/oca/teams/23907/sk/)\n"
 "Language: sk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: Weblate 3.10\n"
+
+#. module: base_comment_template
+#: model:ir.model.fields,field_description:base_comment_template.field_base_comment_template__active
+msgid "Active"
+msgstr "Aktívne"
 
 #. module: base_comment_template
 #: selection:base.comment.template,position:0
 msgid "After lines"
-msgstr ""
+msgstr "Za položkami"
 
 #. module: base_comment_template
 #: model:ir.model,name:base_comment_template.model_base_comment_template
 msgid "Base comment template"
-msgstr ""
+msgstr "Základná šablóna komentárov"
 
 #. module: base_comment_template
 #: selection:base.comment.template,position:0
 msgid "Before lines"
-msgstr ""
+msgstr "Pred položkami"
 
 #. module: base_comment_template
-#: model:ir.model.fields,field_description:base_comment_template.field_base_comment_template_text
+#: model:ir.model.fields,field_description:base_comment_template.field_base_comment_template__text
+#: model_terms:ir.ui.view,arch_db:base_comment_template.view_base_comment_template_form
 msgid "Comment"
-msgstr ""
+msgstr "Komentár"
 
 #. module: base_comment_template
 #: model:ir.actions.act_window,name:base_comment_template.action_base_comment_template
-#: model:ir.ui.view,arch_db:base_comment_template.view_base_comment_template_form
-#: model:ir.ui.view,arch_db:base_comment_template.view_base_comment_template_search
-#: model:ir.ui.view,arch_db:base_comment_template.view_base_comment_template_tree
+#: model_terms:ir.ui.view,arch_db:base_comment_template.view_base_comment_template_form
+#: model_terms:ir.ui.view,arch_db:base_comment_template.view_base_comment_template_search
 msgid "Comment Templates"
-msgstr ""
+msgstr "Šablóny komentárov"
 
 #. module: base_comment_template
-#: model:ir.model.fields,field_description:base_comment_template.field_base_comment_template_name
+#: model:ir.model.fields,field_description:base_comment_template.field_base_comment_template__name
 msgid "Comment summary"
-msgstr ""
+msgstr "Názov"
 
 #. module: base_comment_template
-#: model:ir.model.fields,field_description:base_comment_template.field_base_comment_template_create_uid
+#: model:ir.model.fields,field_description:base_comment_template.field_base_comment_template__company_id
+msgid "Company"
+msgstr "Spoločnosť"
+
+#. module: base_comment_template
+#: model:ir.model.fields,field_description:base_comment_template.field_res_partner__property_comment_template_id
+#: model:ir.model.fields,field_description:base_comment_template.field_res_users__property_comment_template_id
+msgid "Conditions template"
+msgstr "Predvolená šablóna"
+
+#. module: base_comment_template
+#: model:ir.model,name:base_comment_template.model_res_partner
+msgid "Contact"
+msgstr "Kontakt"
+
+#. module: base_comment_template
+#: model:ir.model.fields,field_description:base_comment_template.field_base_comment_template__create_uid
 msgid "Created by"
 msgstr "Vytvoril"
 
 #. module: base_comment_template
-#: model:ir.model.fields,field_description:base_comment_template.field_base_comment_template_create_date
+#: model:ir.model.fields,field_description:base_comment_template.field_base_comment_template__create_date
 msgid "Created on"
 msgstr "Vytvorené"
 
 #. module: base_comment_template
-#: model:ir.model.fields,field_description:base_comment_template.field_base_comment_template_display_name
+#: model:ir.model.fields,field_description:base_comment_template.field_base_comment_template__display_name
 msgid "Display Name"
 msgstr "Zobraziť meno"
 
 #. module: base_comment_template
-#: model:ir.model.fields,field_description:base_comment_template.field_base_comment_template_id
+#: model:ir.model.fields,field_description:base_comment_template.field_base_comment_template__id
 msgid "ID"
 msgstr "ID"
 
 #. module: base_comment_template
-#: model:ir.model.fields,field_description:base_comment_template.field_base_comment_template___last_update
+#: model:ir.model.fields,help:base_comment_template.field_base_comment_template__company_id
+msgid "If set, it'll only be available for this company"
+msgstr "Ak je nastavená, bude k dispozícii iba pre túto spoločnosť"
+
+#. module: base_comment_template
+#: model:ir.model.fields,field_description:base_comment_template.field_base_comment_template____last_update
 msgid "Last Modified on"
 msgstr "Posledná modifikácia"
 
 #. module: base_comment_template
-#: model:ir.model.fields,field_description:base_comment_template.field_base_comment_template_write_uid
+#: model:ir.model.fields,field_description:base_comment_template.field_base_comment_template__write_uid
 msgid "Last Updated by"
 msgstr "Naposledy upravoval"
 
 #. module: base_comment_template
-#: model:ir.model.fields,field_description:base_comment_template.field_base_comment_template_write_date
+#: model:ir.model.fields,field_description:base_comment_template.field_base_comment_template__write_date
 msgid "Last Updated on"
 msgstr "Naposledy upravované"
 
 #. module: base_comment_template
-#: model:ir.model.fields,field_description:base_comment_template.field_base_comment_template_position
-msgid "Position"
-msgstr ""
+#: model_terms:ir.ui.view,arch_db:base_comment_template.view_base_comment_template_form
+msgid "Name"
+msgstr "Názov"
 
 #. module: base_comment_template
-#: model:ir.model.fields,help:base_comment_template.field_base_comment_template_position
+#: model:ir.model.fields,field_description:base_comment_template.field_base_comment_template__position
+msgid "Position"
+msgstr "Pozícia"
+
+#. module: base_comment_template
+#: model:ir.model.fields,help:base_comment_template.field_base_comment_template__position
 msgid "Position on document"
-msgstr ""
+msgstr "Pozícia v dokumente"
